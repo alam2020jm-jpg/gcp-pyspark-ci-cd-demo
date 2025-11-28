@@ -1,0 +1,10 @@
+steps:
+# Step: job_script.py file ko GCS bucket mein copy karna
+- name: 'gcr.io/cloud-builders/gsutil'
+  id: 'Deploy Job Script'
+  args: 
+    - 'cp'
+    - 'zaff123.py'
+    - 'gs://my_rev_buckets_123/scripts/job_script.py'
+
+timeout: '600s'
