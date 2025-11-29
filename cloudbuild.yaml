@@ -6,5 +6,6 @@ steps:
     - 'cp'
     - 'zaff123.py'
     - 'gs://my_rev_buckets_123/scripts/job_script.py'
-
+options:
+  logging: CLOUD_LOGGING_ONLY
 timeout: '600s'
