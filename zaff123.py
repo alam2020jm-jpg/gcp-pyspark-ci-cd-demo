@@ -3,6 +3,11 @@ def xyz(a,b,c):
 	print(f"Sum of three number {a} , {b} and {c}  ={s}")
 	p=a*b*c
 	print(f"Product of three number {a} ,{b} and {c} ={p}")
+	a=50
+	b=55
+	c=60
+	s2=a+b+c
+	print(f" Sum of updated  number {a}, {b} and {c}={s}")
 x=xyz(4,5,7)
 print(x)
 
