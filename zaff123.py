@@ -8,6 +8,7 @@ def xyz(a,b,c):
 	c=60
 	s2=a+b+c
 	print(f" Sum of updated  number {a}, {b} and {c}={s}")
+	rint("today i have modify it")
 	print(f"i have created the data")
 x=xyz(4,5,7)
 print(x)
