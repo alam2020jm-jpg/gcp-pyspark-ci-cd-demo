@@ -19,6 +19,7 @@ def xyz(a,b,c):
 	a1=int(enter a number)
 	b1=int(enter a number)
 	sum12=a1+b1
+	print(" i am trying to learn github")
 	print(f"sum of {a1} and {b1} is :{sum12}")
 x=xyz(4,5,7)
 print(x)
