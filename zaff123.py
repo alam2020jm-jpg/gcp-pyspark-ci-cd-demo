@@ -16,6 +16,10 @@ def xyz(a,b,c):
 	print(f"total sum of three numbers are :{totalxyz}")
 	print("work completed")
 	print(f"i have created the data")
+	a1=int(enter a number)
+	b1=int(enter a number)
+	sum12=a1+b1
+	print(f"sum of {a1} and {b1} is :{sum12}")
 x=xyz(4,5,7)
 print(x)
 
