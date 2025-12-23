@@ -9,6 +9,7 @@ def xyz(a,b,c):
 	s2=a+b+c
 	print(f" Sum of updated  number {a}, {b} and {c}={s}")
 	print("today i have modify it")
+	print("Today we are practice on  vs code")
 	x=70
 	y=90
 	z=80
