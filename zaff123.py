@@ -23,6 +23,9 @@ def xyz(a,b,c):
 	print(" i am trying to learn github")
 	print(f"Value of {x},{y}
 	print(f"sum of {a1} and {b1} is :{sum12}")
+	print(f"hi what is value of p")
+	x=input("enter the name")
+	y=int(input("Enter the age"))
 x=xyz(4,5,7)
 print(x)
 
